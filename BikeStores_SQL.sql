@@ -1,3 +1,5 @@
+## Cleaning sales data in order to make the data easier to work with for further visualization ##
+
 SELECT
 	ord.order_id,
 	CONCAT(cus.first_name, ' ', cus.last_name) AS 'customers',
